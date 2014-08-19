@@ -71,4 +71,38 @@
   - app/views
   - app/controllers
   - config/routes.rb
-- 
+- Homework: Learn Ruby the Hard Way Exercises 33 - 52
+- Week 2 project: Hartl's Rails tutorial chapters 2 - 5
+
+# Class 4: Rails as a second language
+
+- DSL: Domain specific language
+- HTML in Ruby
+- Helpers and Controllers
+- Preprocessors: the bare minimum
+- Putting it all together
+
+# Class 5: Databases and Security
+
+- Relational databases
+  - MySQL
+  - PostgreSQL
+  - MSSQL
+- Non-relational databases
+  - MongoDB
+  - CouchDB
+- What's the difference?
+- Adventures in data modeling
+- ORMs and how Rails handles your data
+  - ActiveRecord
+  - MongoMapper
+  - Migrations and rollbacks
+- Security in Rails applications
+- Protecting your apps
+  - Devise
+  - Sorcery
+  - Roll your own
+- Validations
+  - Client side
+  - Server side
+  - Database
