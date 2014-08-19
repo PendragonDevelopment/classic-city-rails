@@ -1,12 +1,18 @@
 # Prior to class
 
-## Create CodeSchool account
+### Create CodeSchool account
 - Try Ruby: tryruby.org
 
-## Create Github account
+### Create Github account
 - Try Git: try.github.com
 
-# Class 1: Development Environment and Ruby Basics
+### Create StackOverflow.com account
+- StackOverflow.com is one of the most important resources a developer has access to.
+
+### Explore Slack
+- Slack is a communication tool that we'll be using for the class.
+
+# Class 1: Dev Environment and Ruby Basics
 
 - Terminal/Command Line
 - Virtual Machines
@@ -42,3 +48,27 @@
   - Front end frameworks (Bootstrap, Foundation)
   - Themes and styling your blog
 - Writing posts
+
+# Class 3: Advanced Ruby and Rails
+
+- Modules, Classes, and Object Oriented Ruby
+- Inheritance
+- Composition
+- Class methods, variables, and scopes
+- Testing and TDD
+  - Automated testing and RSpec
+- Rails
+  - What is Rails?
+  - rails new
+  - Application structure
+    - app
+    - config
+    - db
+    - Gemfile
+  - Using Rails Composer
+- MVC: The backbone of Rails
+  - app/models
+  - app/views
+  - app/controllers
+  - config/routes.rb
+- 
