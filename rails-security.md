@@ -18,15 +18,15 @@
 >Ancient history? Not really. A recently patched flaw in the JSON gem would let an attacker max out your ram by creating millions of Ruby symbols. Symbols are never garbage-collected.
 
 - Simplicity vs. Security
-- Hierarchy of IT Needs
-- Authentication & Authorization
+- Hierarchy of IT Needs http://informationsecurity.451research.com/wp-uploads/2014/08/hierarchyofITneeds-577x430.jpg
 
 ## Part 2: Rails makes it easy
 
 - CSRF tokens
 - XSS tokens
 - config.force_ssl
-- Sanitize inputs
+- Sanitize inputs http://imgs.xkcd.com/comics/exploits_of_a_mom.png
+- Authentication & Authorization
 - Gems:
     + Devise
     + Sorcery

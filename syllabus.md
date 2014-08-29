@@ -1,4 +1,4 @@
-# Prior to class
+# Class 0: Introduction Sept 15th
 
 ### Create CodeSchool account
 - Try Ruby: tryruby.org
@@ -12,7 +12,7 @@
 ### Explore Slack
 - Slack is a communication tool that we'll be using for the class.
 
-# Class 1: Dev Environment and Ruby Basics
+# Class 1: Dev Environment and Ruby Basics Sept 18th
 
 - Terminal/Command Line
 - Virtual Machines
@@ -34,7 +34,7 @@
   - http://jekyllrb.com/
   - https://pages.github.com
 
-# Class 2: Playing Blogger
+# Class 2: Playing Blogger Sept 22nd
 
 - Problem definition
   - Provide examples of sites/applications that solve a specific problem
@@ -44,7 +44,7 @@
   - Themes and styling your blog
 - Writing posts
 
-# Class 3: Advanced Ruby and Rails
+# Class 3: Advanced Ruby and Rails Sept 25th
 
 - Modules, Classes, and Object Oriented Ruby
 - Inheritance
@@ -69,7 +69,7 @@
 - Homework: Learn Ruby the Hard Way Exercises 33 - 52
 - Week 2 project: Hartl's Rails tutorial chapters 2 - 5
 
-# Class 4: Rails as a second language
+# Class 4: Rails as a second language Sept 29th
 
 - DSL: Domain specific language
 - HTML in Ruby
@@ -77,7 +77,7 @@
 - Preprocessors: the bare minimum
 - Putting it all together
 
-# Class 5: Databases
+# Class 5: Databases Oct 2nd
 
 - User stories
 - Relational databases
@@ -96,7 +96,7 @@
 - Homework: Sections 1-4 in the Ruby track on codecademy.com
 - Week 3 project: Rails Girls app and Guides 1 & 4 http://guides.railsgirls.com/app/
 
-# Class 6: Models
+# Class 6: Models Oct 6th
 
 - Loops, Arrays, Symbols, and Hashes
   - If loops
@@ -110,7 +110,7 @@
   - has_many :through
   - has_and_belongs_to_many
 
-# Class 7: Controllers
+# Class 7: Controllers Oct 9th
 
 - Methods and actions
 - Routing
@@ -122,7 +122,7 @@
 - Homework: Sections 5 - 8 on codecademy.com
 - Week 4 project: Reddit on Rails Part 1 https://github.com/schneems/reddit_on_rails
 
-# Class 8: Authentication & Authorization
+# Class 8: Authentication & Authorization Oct 13th
 
 - Security in Rails applications
 - Protecting your apps
@@ -138,7 +138,7 @@
   + CanCanCan
   + Authority
 
-# Class 9: Extending your applications with Gems
+# Class 9: Extending your applications with Gems Oct 16th
 
 - File uploads: Paperclip
 - Better debugging: Better Errors and Pry
@@ -149,7 +149,7 @@
 - Homework: Sections 9 & 10 on codecademy.com
 - Week 5 project: Reddit on Rails Part 2 & 3 https://github.com/schneems/reddit_on_rails
 
-# Class 10
+# Class 10: Tests Oct 20th
 
 - Testing your application
   + Unit Test
@@ -160,7 +160,7 @@
   + Capybara and interaction testing
 - What to test?
 
-# Class 11: Improving your views
+# Class 11: Improving your views Oct 23rd
 
 - Using helpers
 - HTML5 and JS libraries
@@ -170,22 +170,30 @@
 - AJAX and respond_to/respond_with
 - Week 6 project: Data visualization with Rails: https://github.com/schneems/ruby_javascript_data_viz
 
-# Class 12
+# Class 12 Oct 27th
 
+# Class 13 Oct 30th
 
+# Class 14: Nov 3rd
 
-# Class 13
+# Class 15 Nov 6th
 
-# Class 14: Project lab
+# Class 16: Project lab Nov 10th
 
-# Class 15
+# Class 17 Nov 13th
 
-# Class 16: Project lab
+# Class 18: Project lab Nov 17th
 
-# Class 17
+# Class 19 Nov 20th
 
-# Class 18: Project lab
+# Class 20 Project lab Dec 1st
 
-# Class 19
+# Class 21 Dec 4th
 
-# Class 20: Final project presentations
+# Class 22 Project lab Dec 8th
+
+# Class 23 Project lab Dec 11th
+
+# Class 24: Final project presentations Dec 15th
+
+# Class 25: Final projects and demo day Dec 18th
