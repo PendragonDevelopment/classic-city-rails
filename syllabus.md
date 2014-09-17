@@ -1,26 +1,23 @@
 # Class 0: Introduction Sept 22nd
 
-### Create CodeSchool account
-- Try Ruby: tryruby.org
-
-### Create Github account
-- Try Git: try.github.com
-
-### Create StackOverflow.com account
-- StackOverflow.com is one of the most important resources a developer has access to.
-
-### Explore Slack
-- Slack is a communication tool that we'll be using for the class.
-
-# Class 1: Dev Environment and Ruby Basics Sept 25th
-
+- Create CodeSchool account
+  - Try Ruby: tryruby.org
+- Create Github account
+  - Try Git: try.github.com
+- Create StackOverflow.com account
+  - StackOverflow.com is one of the most important resources a developer has access to.
+- Explore Slack
+  - Slack is a communication tool that we'll be using for the class.
+- What do you hope to get out of this class?
+- Technical requirements
 - Terminal/Command Line
 - Virtual Machines
 - Vagrant basics
 - Version control and Git
 - What is Ruby?
 - Setting up Ruby
-- Intro to Rubygems
+
+# Class 1: Dev Environment and Ruby Basics Sept 25th
 - IRB: The Ruby Console
 - Datatypes
   - Everything is an object
@@ -29,20 +26,21 @@
   - Variables
   - Math
   - Input/Output
-- Homework: Learn Ruby the Hard Way Exercises 1 - 32
-- Week 1 project: Use Jekyll to build a blog
-  - http://jekyllrb.com/
-  - https://pages.github.com
+- Loops, Blocks, and Lambdas
+- Homework: Learn Ruby the Hard Way Exercises 1 - 34
 
 # Class 2: Playing Blogger Sept 29th
 
-- Problem definition
-  - Provide examples of sites/applications that solve a specific problem
 - HTML, CSS, Javascript
   - Basics of front end development
   - Front end frameworks (Bootstrap, Foundation)
   - Themes and styling your blog
 - Writing posts
+- Intro to Rubygems
+- Jekyll, Liquid, and YAML
+- Week 2 project: Use Jekyll to build a blog
+  - http://jekyllrb.com/
+  - https://pages.github.com
 
 # Class 3: Advanced Ruby and Rails Oct 2nd
 
@@ -50,8 +48,6 @@
 - Inheritance
 - Composition
 - Class methods, variables, and scopes
-- Testing and TDD
-  - Automated testing and RSpec
 - Rails
   - What is Rails?
   - rails new
@@ -66,20 +62,23 @@
   - app/views
   - app/controllers
   - config/routes.rb
-- Homework: Learn Ruby the Hard Way Exercises 33 - 52
-- Week 2 project: Hartl's Rails tutorial chapters 2 - 5
+- Problem definition
+  - Provide examples of sites/applications that solve a specific problem
+- Homework: Learn Ruby the Hard Way Exercises 35 - 52
 
 # Class 4: Rails as a second language Oct 6th
 
 - DSL: Domain specific language
 - HTML in Ruby
 - Helpers and Controllers
+- Testing and TDD
+  - Automated testing and RSpec
 - Preprocessors: the bare minimum
 - Putting it all together
+- Week 3 project: Rails Girls app and Guides 1 & 4 http://guides.railsgirls.com/app/
 
 # Class 5: Databases Oct 9th
 
-- User stories
 - Relational databases
   - MySQL
   - PostgreSQL
@@ -94,33 +93,29 @@
   - MongoMapper
   - Migrations and rollbacks
 - Homework: Sections 1-4 in the Ruby track on codecademy.com
-- Week 3 project: Rails Girls app and Guides 1 & 4 http://guides.railsgirls.com/app/
 
 # Class 6: Models Oct 13th
 
-- Loops, Arrays, Symbols, and Hashes
-  - If loops
-  - Each loops
-  - While Loops
-  - Booleans
+- Validations
+  + Client side
+  + Server side
+  + Database
 - ActiveModel
 - Active Record Relationships
   - has_many
   - has_one
   - has_many :through
   - has_and_belongs_to_many
+- Week 4 project: Hartl's Rails tutorial chapters 2 - 6
 
 # Class 7: Controllers Oct 16th
 
+- Forms and form helpers
 - Methods and actions
 - Routing
 - Parameters
-- Sessions and Cookies
-- Filters
-- HTTP Requests and Responses
 - Git branching
 - Homework: Sections 5 - 8 on codecademy.com
-- Week 4 project: Reddit on Rails Part 1 https://github.com/schneems/reddit_on_rails
 
 # Class 8: Authentication & Authorization Oct 20th
 
@@ -129,28 +124,28 @@
   + Devise
   + Sorcery
   + Roll your own
-- Validations
-  + Client side
-  + Server side
-  + Database
 - Authorization
   + Restricting actions vs. restricting visibility
   + CanCanCan
   + Authority
+- Sessions and Cookies
+- Filters
+- HTTP Requests and Responses
+- Week 5 project: Reddit on Rails Part 1 https://github.com/schneems/reddit_on_rails
 
 # Class 9: Extending your applications with Gems Oct 23rd
 
 - File uploads: Paperclip
-- Better debugging: Better Errors and Pry
 - Model attributes: Annotate
 - Forms: Simple Form, Nested Forms
 - Application servers: Thin, Puma, Unicorn
-- Testing: RSpec, Capybara, Guard
 - Homework: Sections 9 & 10 on codecademy.com
 - Week 5 project: Reddit on Rails Part 2 & 3 https://github.com/schneems/reddit_on_rails
 
 # Class 10: Tests Oct 27th
 
+- Testing and TDD
+  - Automated testing and RSpec
 - Testing your application
   + Unit Test
   + Mini Test
@@ -162,29 +157,50 @@
 
 # Class 11: Improving your views Oct 30th
 
+- Debugging - it's a process
+- Better debugging: Better Errors and Pry
+
+# Class 12 Nov 3rd
 - Using helpers
 - HTML5 and JS libraries
 - jQuery
 - Data vizualization
+
+# Class 13 Nov 6th
+
 - Using JSON to build data models
 - AJAX and respond_to/respond_with
 - Week 6 project: Data visualization with Rails: https://github.com/schneems/ruby_javascript_data_viz
 
-# Class 12 Nov 3rd
-
-# Class 13 Nov 6th
-
 # Class 14: Nov 10th
 
+- User stories
+- Project definition and management
+- Defining Scope
+- Data modeling and defining relationships
+
 # Class 15 Nov 13th
+
+- Deploying your application
+  + Application server, web server, database
+  + Heroku
+  + EngineYard
+  + Digital Ocean
+  + AWS
 
 # Class 16: Project lab Nov 17th
 
 # Class 17 Nov 20th
 
+- Best practices
+- Data model and application design review
+
 # Class 18 Project lab Dec 1st
 
 # Class 19 Dec 4th
+
+- Analytics, application monitoring, and logging
+- DevOps tools to speed up development
 
 # Class 20 Project lab Dec 8th
 
