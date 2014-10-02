@@ -58,10 +58,10 @@ Foo.new.bar # => NoMethodError: undefined method ‘bar’ for #<Foo:0x1e820>
 
 ### Class Methods
 
-```ruby
 Class Methods
 Ruby is very flexible and as such it allows several ways to define a class method. The following is a sample of the most commonly used ways.
 
+```ruby
 # Way 1
 class Foo
   def self.bar
