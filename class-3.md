@@ -55,3 +55,38 @@ Foo.baz # => NoMethodError: undefined method ‘baz’ for Foo:Class
 Foo.new.baz # => instance method
 Foo.new.bar # => NoMethodError: undefined method ‘bar’ for #<Foo:0x1e820>
 ```
+
+### Class Methods
+
+```ruby
+Class Methods
+Ruby is very flexible and as such it allows several ways to define a class method. The following is a sample of the most commonly used ways.
+
+# Way 1
+class Foo
+  def self.bar
+    puts 'class method'
+  end
+end
+
+Foo.bar # "class method"
+
+# Way 2
+class Foo
+  class << self
+    def bar
+      puts 'class method'
+    end
+  end
+end
+
+Foo.bar # "class method"
+
+# Way 3
+class Foo; end
+def Foo.bar
+  puts 'class method'
+end
+
+Foo.bar # "class method"
+```
