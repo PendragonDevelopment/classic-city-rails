@@ -90,3 +90,39 @@ end
 
 Foo.bar # "class method"
 ```
+
+### Instance methods
+
+Enough about class methods, lets move on. Instance methods are a bit more simple. Here are a few common ways that instance methods are defined.
+
+```ruby
+# Way 1
+class Foo
+  def baz
+    puts 'instance method'
+  end
+end
+
+Foo.new.baz # "instance method"
+
+# Way 2
+class Foo
+  attr_accessor :baz
+end
+
+foo = Foo.new
+foo.baz = 'instance method'
+puts foo.baz
+
+# Way 3
+class Foo; end
+
+foo = Foo.new
+def foo.bar
+  puts 'instance method'
+end
+
+Foo.new.baz # "instance method"
+```
+
+The key difference is instance methods only work with an instance and thus you have to create a new instance to use them (Foo.new). Again, there are more ways to define instance methods than this, especially if you look into meta programming.
