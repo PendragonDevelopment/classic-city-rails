@@ -31,3 +31,27 @@ et = EightTrack.new("Surrealistic Pillow")
 ph.whoAmI?  »   "Phonograph (#537766170): West End Blues"
 et.whoAmI?  »   "EightTrack (#537765860): Surrealistic Pillow"
 ```
+
+## Classes
+
+Object Oriented Programming 101:
+
+- "In object-oriented programming, a class is a construct that is used to create instances of itself – referred to as class instances, class objects, instance objects or simply objects. A class defines constituent members which enable its instances to have state and behavior."
+
+```ruby
+class Foo
+  def self.bar
+    puts 'class method'
+  end
+
+  def baz
+    puts 'instance method'
+  end
+end
+
+Foo.bar # => "class method"
+Foo.baz # => NoMethodError: undefined method ‘baz’ for Foo:Class
+
+Foo.new.baz # => instance method
+Foo.new.bar # => NoMethodError: undefined method ‘bar’ for #<Foo:0x1e820>
+```
