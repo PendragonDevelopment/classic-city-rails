@@ -69,8 +69,6 @@
 - DSL: Domain specific language
 - HTML in Ruby
 - Helpers and Controllers
-- Testing and TDD
-  - Automated testing and RSpec
 - Preprocessors: the bare minimum
 - Putting it all together
 - Week 3 project: Rails Girls app and Guides 1 & 4 http://guides.railsgirls.com/app/

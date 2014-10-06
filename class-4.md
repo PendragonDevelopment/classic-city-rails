@@ -30,3 +30,7 @@
 
 - *.html.erb - means Embedded RuBy
 - <% %>, <%= %>
+
+### Rails Girls App
+
+[http://guides.railsgirls.com/app/]
