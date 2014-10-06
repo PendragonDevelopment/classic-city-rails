@@ -1,7 +1,17 @@
 ## Class 4: Rails and Domain Specific Languages
 
+### How does Rails know what page to load?
+
 ![routes]
+
+---
+
 ![routes2]
+
+---
+
+### How does it know what data to load?
+
 ![server-flow]
 
 [routes]: http://www.codelearn.org/assets/Module1/l5_pages.png
