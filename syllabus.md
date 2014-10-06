@@ -62,8 +62,6 @@
   - app/views
   - app/controllers
   - config/routes.rb
-- Problem definition
-  - Provide examples of sites/applications that solve a specific problem
 - Homework: Learn Ruby the Hard Way Exercises 35 - 52
 
 # Class 4: Rails as a second language Oct 6th
