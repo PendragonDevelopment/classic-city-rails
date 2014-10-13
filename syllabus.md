@@ -75,14 +75,8 @@
 
 # Class 5: Databases Oct 9th
 
-- Relational databases
-  - MySQL
-  - PostgreSQL
-  - MSSQL
-- Non-relational databases
-  - MongoDB
-  - CouchDB
-- What's the difference?
+- User stories
+- Data modeling and defining relationships
 - Adventures in data modeling
 - ORMs and how Rails handles your data
   - ActiveRecord
@@ -92,6 +86,14 @@
 
 # Class 6: Models Oct 13th
 
+- Relational databases
+  - MySQL
+  - PostgreSQL
+  - MSSQL
+- Non-relational databases
+  - MongoDB
+  - CouchDB
+- What's the difference?
 - Validations
   + Client side
   + Server side
