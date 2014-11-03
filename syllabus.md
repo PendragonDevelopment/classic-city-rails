@@ -106,16 +106,19 @@
   - has_and_belongs_to_many
 - Week 4 project: Hartl's Rails tutorial chapters 2 - 6
 
-# Class 7: Controllers Oct 16th
+# Class 7: Jittery Joe's Fundraiser
+
+# Class 8: Controllers Oct 20th
 
 - Forms and form helpers
 - Methods and actions
 - Routing
-- Parameters
-- Git branching
+- HTTP Requests and Responses
 - Homework: Sections 5 - 8 on codecademy.com
 
-# Class 8: Authentication & Authorization Oct 20th
+# Class 9: Project lab Oct 23rd
+
+# Class 10: Authentication & Authorization Oct 27th
 
 - Security in Rails applications
 - Protecting your apps
@@ -128,10 +131,10 @@
   + Authority
 - Sessions and Cookies
 - Filters
-- HTTP Requests and Responses
+- Parameters
 - Week 5 project: Reddit on Rails Part 1 https://github.com/schneems/reddit_on_rails
 
-# Class 9: Extending your applications with Gems Oct 23rd
+# Class 11: Extending your applications with Gems Oct 30th
 
 - File uploads: Paperclip
 - Model attributes: Annotate
@@ -140,7 +143,7 @@
 - Homework: Sections 9 & 10 on codecademy.com
 - Week 5 project: Reddit on Rails Part 2 & 3 https://github.com/schneems/reddit_on_rails
 
-# Class 10: Tests Oct 27th
+# Class 12: Tests Nov 3rd
 
 - Testing and TDD
   - Automated testing and RSpec
@@ -153,31 +156,30 @@
   + Capybara and interaction testing
 - What to test?
 
-# Class 11: Improving your views Oct 30th
+# Class 13: Improving your views Nov 6th
 
 - Debugging - it's a process
 - Better debugging: Better Errors and Pry
 
-# Class 12 Nov 3rd
+# Class 14 Nov 10th
 - Using helpers
 - HTML5 and JS libraries
 - jQuery
 - Data vizualization
 
-# Class 13 Nov 6th
+# Class 15 Nov 13th
 
 - Using JSON to build data models
 - AJAX and respond_to/respond_with
 - Week 6 project: Data visualization with Rails: https://github.com/schneems/ruby_javascript_data_viz
 
-# Class 14: Nov 10th
+# Class 16: Nov 17th
 
 - User stories
 - Project definition and management
 - Defining Scope
-- Data modeling and defining relationships
 
-# Class 15 Nov 13th
+# Class 17 Nov 20th
 
 - Deploying your application
   + Application server, web server, database
@@ -185,11 +187,6 @@
   + EngineYard
   + Digital Ocean
   + AWS
-
-# Class 16: Project lab Nov 17th
-
-# Class 17 Nov 20th
-
 - Best practices
 - Data model and application design review
 
