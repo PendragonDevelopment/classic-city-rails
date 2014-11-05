@@ -17,11 +17,14 @@ Features:
 - Users should be able to add an address for box delivery
     + Creating a separate Address model will allow Users to set multiple addressses for both billing and delivery, much like Amazon
     + ```User has_many :addresses -> Address belongs_to :user```
-- Users should be able to add profile details
 - Users should be able to set up a payment method for checkout
+    + This requires us storing the Customer Id from Stripe, the card token, and the last four digits for verification
 - Users should not have to log in and can complete a purchase as a Guest
+    + We can do this using the Stripe Checkout.js integration
 - Guests should be able to create an account at checkout if desired
+    + If they want to sign up for an account, all we will need in addition to their email address (which should be required) is a password and password confirmation
 - Admins should be able to invite Users
+    + We can add this using Devise Invitable
 - Admins should be able to remove or update Users
 
 ### Boxes, Items, and Orders
