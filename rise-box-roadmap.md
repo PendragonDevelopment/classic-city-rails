@@ -13,7 +13,10 @@ Features:
 ### Users, Admins, Guests, and Subscriptions
 
 - Users should be able to sign up for an account
+    + We can build this using Devise
 - Users should be able to add an address for box delivery
+    + Creating a separate Address model will allow Users to set multiple addressses for both billing and delivery, much like Amazon
+    + ```User has_many :addresses -> Address belongs_to :user```
 - Users should be able to add profile details
 - Users should be able to set up a payment method for checkout
 - Users should not have to log in and can complete a purchase as a Guest
