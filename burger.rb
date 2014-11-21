@@ -1,17 +1,17 @@
 class Burger
-  # attr_reader :options
+  attr_reader :options
 
-  # def initialize(options={})
-  #   @options = options
-  # end
+  def initialize(options={})
+    @options = options
+  end
 
-  # def apply_ketchup
-  #   @ketchup = @options[:ketchup]
-  # end
+  def apply_ketchup
+    @ketchup = @options[:ketchup]
+  end
 
-  # def has_ketchup_on_it?
-  #   @ketchup
-  # end
+  def has_ketchup_on_it?
+    @ketchup
+  end
 
 end
 
@@ -22,12 +22,12 @@ describe Burger do
     context "with ketchup" do
       # before actions can help you with testing set up and breakdown
       before do
-        @burger = Burger.new(:ketchup => true)
+        @burger = Burger.new(ketchup: true)
         @burger.apply_ketchup
       end
 
       it ".has_ketchup_on_it?" do
-        expect(@burger.has_ketchup_on_it?).to be_true
+        expect(@burger.has_ketchup_on_it?).to eql(true)
       end
 
     end
@@ -36,6 +36,10 @@ describe Burger do
       before do
         @burger = Burger.new(:ketchup => false)
         @burger.apply_ketchup
+      end
+
+      it "!.has_ketchup_on_it?" do
+        expect(@burger.has_ketchup_on_it?).to eql(false)
       end
 
     end
