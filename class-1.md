@@ -14,12 +14,12 @@ Everything derives from object
 - Hash
 - Symbol
 
-```h = {"hash?" => "yep, it\'s a hash!", "the answer to everything" => 42, :linux => "fun for coders."}
-puts "Stringy string McString!".class
-puts 1.class
-puts nil.class
-puts h.class
-puts :symbol.class```
+`h = {"hash?" => "yep, it\'s a hash!", "the answer to everything" => 42, :linux => "fun for coders."}`
+`puts "Stringy string McString!".class`
+`puts 1.class`
+`puts nil.class`
+`puts h.class`
+`puts :symbol.class`
 
 - Hash: unordered object-indexed collection of objects (key value pairs)
 - Array when order matters, hash when label (key) matters
