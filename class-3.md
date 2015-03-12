@@ -131,17 +131,3 @@ The key difference is instance methods only work with an instance and thus you h
 
 - http://www.railstips.org/blog/archives/2009/05/11/class-and-instance-methods-in-ruby/
 - http://rubymonk.com/learning/books/1-ruby-primer/chapters/35-modules/lessons/80-modules-as-namespaces
-
-# RAILS!!!!!
-## The main attraction! Finally!
-
-- "Rails is a web application development framework written in the Ruby language. It is designed to make programming web applications easier by making assumptions about what every developer needs to get started. It allows you to write less code while accomplishing more than many other languages and frameworks. Experienced Rails developers also report that it makes web application development more fun."
-- The Rails philosophy includes two major guiding principles:
-    - Don't Repeat Yourself: DRY is a principle of software development which states that "Every piece of knowledge must have a single, unambiguous, authoritative representation within a system." By not writing the same information over and over again, our code is more maintainable, more extensible, and less buggy.
-    - Convention Over Configuration: Rails has opinions about the best way to do many things in a web application, and defaults to this set of conventions, rather than require that you specify every minutiae through endless configuration files.
-
-```
-app/
-bin/
-config/
-```
